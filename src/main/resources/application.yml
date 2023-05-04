@@ -4,6 +4,6 @@ spring:
   profiles:
     active: default
   datasource:
-    url: jdbc.mariadb://127.0.0.1:3306/post_dev
+    url: jdbc:mariadb://127.0.0.1:3306/post_dev
     username: root
     password:

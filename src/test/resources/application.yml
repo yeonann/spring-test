@@ -1,0 +1,9 @@
+server:
+  port: 0 # 아무 포트나 된다
+spring:
+  profiles:
+    active: test # test 모드로 작동. 없어도 되지만 active를 가져오는 코드가 있어 넣어준다.
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
